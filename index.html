@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Vitapoly Portfolio</title>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0"/>
+
+		<style>/* Removes Mobile Highlight */ {-webkit-tap-highlight-color: rgba(0, 0, 0, 0);}</style>
+
+		<script src="https://code.createjs.com/createjs-2015.05.21.min.js"></script>
+		<script src="js/lib/easeljs/filters/ColorFilter.js"></script>
+		<script src="js/lib/DetectMobile.js"></script>
+
+		<script src="js/controller/MenuC.js"></script>
+		<script src="js/controller/AppsC.js"></script>
+		<script src="js/controller/ToolsC.js"></script>
+		<script src="js/controller/ServicesC.js"></script>
+
+		<script src="js/view/View.js"></script>
+		<script src="js/view/AppsV.js"></script>
+		<script src="js/view/MenuV.js"></script>
+		<script src="js/view/ToolsV.js"></script>
+		<script src="js/view/ServicesV.js"></script>
+
+		<script src="js/Main.js"></script>
+
+		<style type='text/css'>
+			#xcanvas{
+				/*background-color:#000;*/
+				position:absolute;
+			}
+
+			html, body{	
+				width:100%; 
+				height:100%; 
+				overflow:hidden;
+			}
+
+			body {
+				background-repeat: repeat;
+				background-image: url(images/tileBG.jpg);
+			}
+
+			
+
+		</style>
+
+
+	</head>
+	<body onload="Main();">
+		<canvas id="xcanvas" width="1920" height="1080"></canvas>
+	</body>
+
+
+</html>
